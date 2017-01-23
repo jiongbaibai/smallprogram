@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/self/self"
+  ],
+  "window": {
+    "navigationBarTitleText": "测试"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/ing.png",
+      "selectedIconPath": "images/ing-active.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/self/self",
+      "iconPath": "images/coming.png",
+      "selectedIconPath": "images/coming-active.png",
+      "text": "个人"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
