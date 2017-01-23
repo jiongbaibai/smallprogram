@@ -1,4 +1,4 @@
-// pages/self/self.js
+// pages/future/future.js
 Page({
   data:{},
   onLoad:function(options){
